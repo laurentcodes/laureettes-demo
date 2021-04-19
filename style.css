@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Lato';
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px 60px;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 30px;
+}
+
+.header-links {
+	font-size: 12px;
+	letter-spacing: 1.2;
+	list-style: none;
+	display: inline-block;
+	padding: 20px 0;
+}
+
+.header-links li {
+	display: inline;
+	margin-right: 14px;
+}
+
+.header-links a {
+	color: #000000;
+}
+
+.header-links a.active {
+	color: #40b05a;
+	text-decoration: underline;
+}
+
+header > a {
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+	height: 47px;
+	width: 140px;
+	background-color: #7e1917;
+}
+
+.landing-image .land {
+	background-color: #0000006c;
+	position: absolute;
+	width: 83.5%;
+	height: 560px;
+	z-index: 3;
+	left: 90px;
+}
+
+.landing-image .right-arrow {
+	position: absolute;
+	width: 67px;
+	z-index: 4;
+	height: 67px;
+	color: red;
+	bottom: -90px;
+	left: 250px;
+}
+
+.landing-image img {
+	width: 100%;
+	height: 560px;
+	padding: 0 30px;
+	position: relative;
+	z-index: 0;
+}
+
+.landing-image .center-text {
+	position: absolute;
+	bottom: -90px;
+	left: 250px;
+	font-family: 'DM Serif Display';
+	font-size: 66px;
+	color: #ffffff;
+	z-index: 4;
+	line-height: 1;
+	letter-spacing: 0px;
+}
+
+.main-text {
+	padding: 80px 100px;
+}
+
+.main-text h3 {
+	font-size: 16.5px;
+	text-align: left;
+	letter-spacing: 1.65px;
+	color: #40b05a;
+}
+
+.main-text p {
+	margin-top: 5px;
+	color: #4f2141;
+	font-size: 25.4px;
+}
+
+.vision-area {
+	display: flex;
+	padding: 22px 0;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.vision-area .text-area {
+	padding: 80px 40px;
+	background-color: #40b05a16;
+	width: 42%;
+	height: 100%;
+}
+
+.vision-area .text-area h3 {
+	margin-bottom: 10px;
+}
+
+.vision-area .text-area p {
+	margin-bottom: 45px;
+}
+
+.vision-area .text-area a {
+	background-color: #40b05a;
+	color: #ffffff;	
+	padding: 18px 25px;
+	width: 196px;
+}
+
+.vision-area .text-area p {
+	color: #000000;
+	font-size: 20.8px;
+}
+
+.vision-area .text-area h3 {
+	color: #40b05a;
+	font-size: 13.7px;
+}
+
+.vision-area .img-area {
+	display: flex;
+	width: 35%;
+	justify-content: center;
+}
+
+.vision-area .stat-area {
+	width: 23%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.vision-area .stat-area > * {
+	padding: 10px;
+}
+
+.vision-area .stat-area .stat1,
+.vision-area .stat-area .stat3 {
+	background-color: #39152e;
+	height: 100%;
+}
+
+.vision-area .stat-area .stat2 {
+	background-color: #40b05a;
+	height: 100%;
+}
+
+.vision-area .stat-area .stat1 h1 {
+	font-size: 73.7px;
+	color: #40b05a;
+}
+
+.vision-area .stat-area .stat2 h1 {
+	font-size: 73.7px;
+	color: #fff;
+}
+
+.vision-area .stat-area .stat3 h1 {
+	font-size: 56.4px;
+	color: #fff;
+}
+
+.vision-area .stat-area .stat1 h3,
+.vision-area .stat-area .stat2 h3,
+.vision-area .stat-area .stat3 h3 {
+	font-size: 13.7px;
+	color: #fff;
+	letter-spacing: 1.37px;
+}
+
+.vision-area .img-area .img img {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-position: center;
+}
+
+.core-values {
+	margin-top: 50px;
+	background-color: #39152e;
+	height: 100%;
+	width: 100%;
+}
+
+.core-values > h1 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 57.7px;
+	padding: 80px 100px 0px;
+}
+
+.core-values .boxes {
+	padding: 40px 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.core-values .boxes .box1,
+.core-values .boxes .box2,
+.core-values .boxes .box3,
+.core-values .boxes .box4,
+.core-values .boxes .box5 {
+	background-color: #4f2141;
+	width: 220px;
+	height: 200px;
+	margin: 25px;
+	text-align: center;
+	padding: 35px;
+	color: #ffffff;
+}
+
+.core-values .boxes .box1 h3,
+.core-values .boxes .box2 h3,
+.core-values .boxes .box3 h3,
+.core-values .boxes .box4 h3,
+.core-values .boxes .box5 h3 {
+	margin-top: 15px;
+	font-size: 20px;
+}
